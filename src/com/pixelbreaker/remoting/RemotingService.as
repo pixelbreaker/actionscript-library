@@ -1,0 +1,1 @@
+package com.pixelbreaker.remoting {	import flash.net.NetConnection;	import flash.net.ObjectEncoding;		/**	 * @author Gabriel Bucknall-Mak (gabriel@pixelbreaker.com)	 */	public class RemotingService extends NetConnection	{		function RemotingService( url:String )		{			objectEncoding = ObjectEncoding.AMF3;						connect( url );			}	}}
