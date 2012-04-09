@@ -1,9 +1,6 @@
 package com.pixelbreaker.localize.events {
 	import flash.events.Event;	
 	
-	/**
-	 * @author Alias Cummins
-	 */
 	public class SharedFontsEvent extends Event {
 		public static const AllFontsLoaded:String = 'allFontsLoaded';
 		public static const DictionaryLoaded:String = 'dictionaryLoaded';
